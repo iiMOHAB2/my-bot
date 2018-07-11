@@ -171,4 +171,16 @@ client.on("message", (message) => {
         });
     }
 });
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+    console.log('I am ready!');
+});
+
+client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.reply('pong');
+  	}
+});
 client.login("prcess.env.NDY2NTcxMjM4NDM3OTQ1MzU1.Die1iQ.M5i9jc8yT2L1Scce2qIeWfo4kxA");
