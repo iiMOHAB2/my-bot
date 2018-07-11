@@ -1,2 +1,2 @@
-# my-bot
-Bot for my server
+# super-super-heroku-bot
+Bot using heroku, 24/7!
